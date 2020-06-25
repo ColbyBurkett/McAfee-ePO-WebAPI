@@ -39,7 +39,7 @@ import csv
 import json
 import mcafee
 
-mc = mcafee.client('192.168.11.103', '8443', '', '')
+mc = mcafee.client('your IP here', '8443', '', '')
 
 # Read the file and set the reputations
 with open('reputations.csv') as f:
